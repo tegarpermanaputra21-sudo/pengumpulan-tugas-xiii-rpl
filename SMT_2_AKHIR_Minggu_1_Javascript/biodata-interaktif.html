@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biodata JavaScript</title>
+  </head>
+  <body>
+    <h1>Biodata Siswa</h1>
+
+    <!-- Tempat menampilkan biodata -->
+    <div id="biodata"></div>
+
+    <script>
+      // Variabel
+      let nama = "Tegar";
+      let kelas = "XII RPL";
+      let sekolah = "SMK Muhammadiyah 3 Tangerang Selatan";
+
+      // Menampilkan biodata dengan innerHTML
+      document.getElementById("biodata").innerHTML = `
+            <p><strong>Nama:</strong> ${nama}</p>
+            <p><strong>Kelas:</strong> ${kelas}</p>
+            <p><strong>Sekolah:</strong> ${sekolah}</p>
+        `;
+    </script>
+  </body>
+</html>

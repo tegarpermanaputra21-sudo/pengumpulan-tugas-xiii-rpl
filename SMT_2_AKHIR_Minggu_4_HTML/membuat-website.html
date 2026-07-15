@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Biodata</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Website Biodata</h1>
+      <p>Selamat Datang di Website Biodata</p>
+    </header>
+
+    <hr />
+
+    <!-- Menu -->
+    <nav>
+      <a href="#profil">Profil</a> | <a href="#skill">Skill</a> |
+      <a href="#kontak">Kontak</a>
+    </nav>
+
+    <hr />
+
+    <!-- Artikel -->
+    <article id="profil">
+      <h2>Profil</h2>
+      <p>
+        Website ini berisi informasi biodata sederhana, skill yang dimiliki,
+        serta form kontak yang dapat digunakan untuk menghubungi pemilik
+        website.
+      </p>
+    </article>
+
+    <!-- Gambar -->
+    <section>
+      <h2>Foto Profil</h2>
+      <img
+        src="/SMT_2_AKHIR_Minggu_1_HTML/website-favorite/girl1.webp"
+        alt="Foto Profil"
+        width="200"
+      />
+    </section>
+
+    <!-- Tabel -->
+    <section id="skill">
+      <h2>Daftar Skill</h2>
+
+      <table border="1" cellpadding="10">
+        <tr>
+          <th>No</th>
+          <th>Skill</th>
+          <th>Level</th>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>HTML</td>
+          <td>Menengah</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>CSS</td>
+          <td>Menengah</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>JavaScript</td>
+          <td>Dasar</td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td>Python</td>
+          <td>Dasar</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Form -->
+    <section id="kontak">
+      <h2>Form Kontak</h2>
+
+      <form>
+        <label for="nama">Nama:</label><br />
+        <input
+          type="text"
+          id="nama"
+          name="nama"
+          placeholder="Masukkan nama"
+          required
+        />
+        <br /><br />
+
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="contoh@email.com"
+          required
+        />
+        <br /><br />
+
+        <label for="pesan">Pesan:</label><br />
+        <textarea
+          id="pesan"
+          name="pesan"
+          rows="5"
+          cols="40"
+          placeholder="Tulis pesan..."
+          required
+        ></textarea>
+        <br /><br />
+
+        <input type="submit" value="Kirim" />
+      </form>
+    </section>
+
+    <hr />
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 Website Biodata | Dibuat dengan HTML</p>
+    </footer>
+  </body>
+</html>

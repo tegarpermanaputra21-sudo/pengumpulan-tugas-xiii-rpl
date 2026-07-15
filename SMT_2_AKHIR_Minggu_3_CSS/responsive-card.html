@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Card</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        background-color: #f4f4f4;
+        padding: 40px;
+      }
+
+      /* Container Card */
+      .container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      /* Card */
+      .card {
+        width: 250px;
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .card h2 {
+        margin-bottom: 10px;
+      }
+
+      .card p {
+        margin-bottom: 15px;
+        color: #555;
+      }
+
+      .card button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: white;
+        cursor: pointer;
+      }
+
+      .card button:hover {
+        background-color: #555;
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .card {
+          width: 100%;
+          max-width: 350px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h2>HTML</h2>
+        <p>Belajar struktur dasar website.</p>
+        <button>Pelajari</button>
+      </div>
+
+      <div class="card">
+        <h2>CSS</h2>
+        <p>Membuat tampilan website lebih menarik.</p>
+        <button>Pelajari</button>
+      </div>
+
+      <div class="card">
+        <h2>Flexbox</h2>
+        <p>Menyusun layout website dengan mudah.</p>
+        <button>Pelajari</button>
+      </div>
+    </div>
+  </body>
+</html>

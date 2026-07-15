@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3 Card Flexbox</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 50px;
+      }
+
+      .card {
+        width: 220px;
+        padding: 20px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;
+      }
+
+      .card img {
+        width: 100px;
+        border-radius: 50%;
+      }
+
+      .card h2 {
+        margin: 15px 0 10px;
+      }
+
+      .card p {
+        margin-bottom: 15px;
+        color: #555;
+      }
+
+      .card button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: white;
+        cursor: pointer;
+      }
+
+      .card button:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img
+          src="/SMT_2_AKHIR_Minggu_1_HTML/website-favorite/girl1.webp"
+          alt="Foto 1"
+        />
+        <h2>Andi</h2>
+        <p>Web Developer</p>
+        <button>Lihat Profil</button>
+      </div>
+
+      <div class="card">
+        <img
+          src="/SMT_2_AKHIR_Minggu_1_HTML/website-favorite/girl1.webp"
+          alt="Foto 2"
+        />
+        <h2>Budi</h2>
+        <p>UI/UX Designer</p>
+        <button>Lihat Profil</button>
+      </div>
+
+      <div class="card">
+        <img
+          src="/SMT_2_AKHIR_Minggu_1_HTML/website-favorite/girl1.webp"
+          alt="Foto 3"
+        />
+        <h2>Citra</h2>
+        <p>Mobile Developer</p>
+        <button>Lihat Profil</button>
+      </div>
+    </div>
+  </body>
+</html>

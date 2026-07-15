@@ -1,0 +1,27 @@
+## 1. Apa itu Website?
+**Website** adalah kumpulan halaman web yang saling terhubung dan dapat diakses oleh publik melalui internet menggunakan alamat unik yang disebut URL (contoh: `www.nama-situs.com`). Website berfungsi sebagai wadah informasi digital yang dapat berisi teks, gambar, video, dan media lainnya.
+
+---
+
+## 2. Apa itu HTML?
+**HTML** (*HyperText Markup Language*) adalah bahasa standar yang digunakan untuk membuat struktur dasar sebuah halaman web. HTML menggunakan sistem tag (seperti `<h1>` untuk judul atau `<p>` untuk paragraf) untuk mengatur bagaimana konten disusun sebelum ditampilkan oleh browser.
+
+---
+
+## 3. Fungsi Browser
+**Browser** (seperti Google Chrome, Mozilla Firefox, atau Safari) adalah perangkat lunak yang berfungsi untuk membaca, menerjemahkan, dan menampilkan kode-kode web (HTML, CSS, JavaScript) menjadi halaman visual yang interaktif dan mudah dipahami oleh pengguna.
+
+---
+
+## 4. Tools Membuat Website
+Berikut adalah beberapa alat yang umum digunakan untuk membuat website:
+
+* **Code Editor (Menulis Kode Manual):**
+  * Visual Studio Code (VS Code)
+  * Sublime Text
+* **Content Management System (CMS):**
+  * WordPress
+  * Joomla
+* **Website Builder (Tanpa Kode/Drag-and-Drop):**
+  * Wix
+  * Squarespace

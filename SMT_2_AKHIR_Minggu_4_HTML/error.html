@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing Website</title>
+  </head>
+  <body>
+    <!-- Header Website -->
+    <header>
+      <h1>Website Testing HTML</h1>
+    </header>
+
+    <!-- Menu Navigasi -->
+    <nav>
+      <!-- Cek link menu -->
+      <a href="#profil">Profil</a> |
+      <a href="#kontak">Kontak</a>
+    </nav>
+
+    <hr />
+
+    <!-- Artikel -->
+    <section id="profil">
+      <h2>Profil</h2>
+      <p>Website ini digunakan untuk latihan HTML.</p>
+    </section>
+
+    <!-- Cek Gambar -->
+    <!-- Pastikan file gambar.jpg berada di folder yang sama -->
+    <img
+      src="/SMT_2_AKHIR_Minggu_1_HTML/website-favorite/girl1.webp"
+      alt="Gambar Profil"
+      width="200"
+    />
+
+    <hr />
+
+    <!-- Tabel Data -->
+    <table border="1" cellpadding="10">
+      <tr>
+        <th>Nama</th>
+        <th>Kelas</th>
+      </tr>
+      <tr>
+        <td>Andi</td>
+        <td>XI RPL</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <!-- Form -->
+    <section id="kontak">
+      <h2>Form Kontak</h2>
+
+      <form>
+        <!-- Cek input nama -->
+        <label for="nama">Nama:</label><br />
+        <input type="text" id="nama" required /><br /><br />
+
+        <!-- Cek validasi email -->
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" required /><br /><br />
+
+        <!-- Cek textarea -->
+        <label for="pesan">Pesan:</label><br />
+        <textarea id="pesan" rows="4" cols="40"></textarea><br /><br />
+
+        <!-- Cek tombol submit -->
+        <input type="submit" value="Kirim" />
+      </form>
+    </section>
+
+    <hr />
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 Website Testing</p>
+    </footer>
+
+    <!--
+        Checklist Testing Website
+
+        ✓ Coding website selesai.
+        ✓ Cek link navigasi.
+        ✓ Cek gambar tampil.
+        ✓ Cek form (required & email).
+        ✓ Perbaiki error jika ada:
+          - src gambar salah
+          - href link salah
+          - tag HTML belum ditutup
+          - file gambar tidak ditemukan
+    -->
+  </body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Data Siswa Modern</title>
+  </head>
+  <body>
+    <h2>Form Data Siswa</h2>
+
+    <form>
+      <!-- Nama -->
+      <label for="nama">Nama:</label><br />
+      <input
+        type="text"
+        id="nama"
+        name="nama"
+        placeholder="Masukkan nama lengkap"
+        required
+      />
+      <br /><br />
+
+      <!-- Email -->
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="contoh@email.com"
+        required
+      />
+      <br /><br />
+
+      <!-- Password -->
+      <label for="password">Password:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Masukkan password"
+        required
+      />
+      <br /><br />
+
+      <!-- Gender -->
+      <label>Gender:</label><br />
+      <input type="radio" id="laki" name="gender" value="Laki-laki" required />
+      <label for="laki">Laki-laki</label>
+
+      <input type="radio" id="perempuan" name="gender" value="Perempuan" />
+      <label for="perempuan">Perempuan</label>
+      <br /><br />
+
+      <!-- Hobi -->
+      <label>Hobi:</label><br />
+      <input type="checkbox" id="coding" name="hobi" value="Coding" />
+      <label for="coding">Coding</label><br />
+
+      <input type="checkbox" id="gaming" name="hobi" value="Gaming" />
+      <label for="gaming">Gaming</label><br />
+
+      <input type="checkbox" id="olahraga" name="hobi" value="Olahraga" />
+      <label for="olahraga">Olahraga</label>
+      <br /><br />
+
+      <!-- Kelas -->
+      <label for="kelas">Kelas:</label><br />
+      <select id="kelas" name="kelas" required>
+        <option value="">-- Pilih Kelas --</option>
+        <option value="X RPL">X RPL</option>
+        <option value="XI RPL">XI RPL</option>
+        <option value="XII RPL">XII RPL</option>
+      </select>
+      <br /><br />
+
+      <!-- Alamat -->
+      <label for="alamat">Alamat:</label><br />
+      <textarea
+        id="alamat"
+        name="alamat"
+        rows="4"
+        cols="40"
+        placeholder="Masukkan alamat lengkap"
+        required
+      ></textarea>
+      <br /><br />
+
+      <!-- Tombol Submit -->
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>

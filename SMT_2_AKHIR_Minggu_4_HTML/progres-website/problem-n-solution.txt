@@ -1,0 +1,10 @@
+Masalah dan Solusi
+
+Masalah:
+Saat website dijalankan, gambar profil tidak muncul pada halaman website.
+
+Penyebab:
+Hal ini terjadi karena nama file gambar atau lokasi (path) gambar yang ditulis pada atribut src tidak sesuai dengan file yang ada di komputer.
+
+Solusi:
+Periksa kembali nama file gambar dan pastikan penulisannya sudah benar, termasuk penggunaan huruf besar dan kecil. Selain itu, pastikan lokasi file gambar sesuai dengan path yang ditulis pada kode HTML. Jika gambar berada di dalam folder tertentu, sesuaikan penulisan src dengan lokasi folder tersebut. Setelah diperbaiki, simpan file lalu muat ulang (refresh) halaman website di browser.

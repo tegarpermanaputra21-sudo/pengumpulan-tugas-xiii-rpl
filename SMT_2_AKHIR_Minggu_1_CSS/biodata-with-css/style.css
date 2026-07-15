@@ -1,0 +1,27 @@
+body {
+  background-color: #e6f7ff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: darkblue;
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  color: green;
+  font-size: 28px;
+}
+
+p,
+li {
+  color: #333333;
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
